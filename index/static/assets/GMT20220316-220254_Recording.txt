@@ -1,0 +1,73 @@
+00:20:36	Cristian Mondragon:	mañana armo bien la consulta
+00:21:41	Analía Belén Hereñú Baldo:	Cristian, recargá la página con Ctrl + F5
+00:22:12	Analía Belén Hereñú Baldo:	No a vos al otro Cristian
+00:38:45	Luciano Manuel Vallejo:	sisi
+00:38:47	Analía Belén Hereñú Baldo:	si
+00:40:29	Pablo Flores:	CRUD no entra en la entrega intermedia verdad!!!
+00:40:44	[Tutor] Andres Nazzari:	no pablo
+00:41:49	[Tutor] Andres Nazzari:	https://docs.google.com/presentation/d/1vE_PzNmwJfBT-OwWCzOEbAsKWBM6F5UCMHsRpHuWAq4/preview?slide=id.gf12628559d_0_119 ese es el link con el detalle de la entrega intermedia
+00:51:46	Leonardo Mendoza:	indice/listado_estudiantes
+00:51:55	Leonardo Mendoza:	??
+00:52:40	Mauro Testana:	En la urls creo que uno no te lo tomo
+00:53:19	Brian Ariel Meier:	no falta una / más?
+00:53:42	[Tutor] Andres Nazzari:	te esta tirando error el import también, eso es por el entorno virtual creo
+00:53:43	Leonardo Mendoza:	linea 78 de viewa
+00:53:49	Leonardo Mendoza:	views
+00:58:52	Leonel Fernandes:	profe al mostrar el listado no me muestra el boton para crear un estudiante
+00:59:20	Ailen Toto:	👍
+00:59:25	Ailen Toto:	buenas
+01:02:35	Iván Janda:	podrias explicarlo de nuevo?
+01:03:03	Florencia Urreaola Ferrer:	si
+01:29:11	Samuel Correa:	Cris, pero eso no es como si fueras admin, podes borrar, eliminar, actualizar a todos los usuarios que se registren. No tendrías que poder hacer eso solo para 1 cuenta?
+01:30:01	Samuel Correa:	calro
+01:30:16	Samuel Correa:	okey!
+01:30:26	Leonel Fernandes:	Profe, lo sube a git?
+01:30:38	Patricio Leiva:	dalee
+01:30:51	Leonel Fernandes:	Aah okok, porque me perdi en un punto y rompi medio proyecto y queria bajarlo para ir arreglando jaja
+01:30:54	Ezequiel BARLETTA PAZ:	profe, me mostras porfa listado_estudiantes.html?
+01:31:50	Patricio Leiva:	profe react se usa con js no?
+01:31:53	Mauro Testana:	Profe se pueden hacer varios buscadores en un mismo file de html?
+01:33:22	Mauro Testana:	Aa perfecto gracias!!
+01:34:03	Patricio Leiva:	y es muy necesario aprender php si queres hacer paginas web?
+01:34:12	Patricio Leiva:	nunca entendí muy bien lo que era
+01:35:35	Patricio Leiva:	ty
+01:35:37	[Tutor] Gustavo Guzmán:	Aviso: a los alumnos de mi grupo, les comunico que subí en Slack el listado de grupos actualizado. Si tienen algún comentario, me gustaría pedirles que lo realicen por allí, antes de las 21:00 hs.
+01:35:51	[Tutor] Joaquin Viretti:	Yo hice lo mismo!
+01:37:26	Ezequiel BARLETTA PAZ:	profe, me muestra actualizar_estudiante.html ahora porfa?
+01:41:07	[Tutor] Andres Nazzari:	me choreo el aviso de gustavo
+01:41:08	[Tutor] Andres Nazzari:	Aviso: a los alumnos de mi grupo, les comunico que subí en Slack el listado de grupos actualizado. Si tienen algún comentario, me gustaría pedirles que lo realicen por allí, antes de las 21:00 hs.
+01:46:22	[Tutor] David Mendez:	IDEM AndresAviso: a los alumnos de mi grupo, les comunico que subí en Slack el listado de grupos actualizado. Si tienen algún comentario, me gustaría pedirles que lo realicen por allí, antes de las 21:00 hs.
+02:04:25	[Profesor] Cristian D Biancotti:	https://regex101.com/
+02:09:01	Mauro Testana:	Antes del $ hay un / que en la diapositiva no esta, puede ser?
+02:13:10	Luciano Manuel Vallejo:	son errores que tambien puede pasarnos a nosotros jajaj
+02:13:19	Luciano Manuel Vallejo:	imagínate prendo fuego la pc
+02:13:50	Analía Belén Hereñú Baldo:	no te falta profesor_detalle o algo así?
+02:15:15	Pablo Marelli:	algo en el nombre del template?
+02:15:31	Pablo Marelli:	profesor_detail me tiraba a mi
+02:15:41	Pablo Marelli:	no hay un nombre por defecto?
+02:16:29	Pablo Marelli:	renombrando el template a profesor_detail?
+02:22:30	Samuel Correa:	Profe, me retiro. Muchas gracias por la clase igualmente. Mañana veo este pedacito :)
+02:22:35	Samuel Correa:	Saludoos!
+02:31:08	[Tutor] David Mendez:	Bueno, chicos, me tengo que retirar!Cualquier consulta quedo muy atento al Slack!
+02:35:09	Mariana Garriz:	gracias Cristian por la clase! me tengo que retirar! mañana la termino de ver! saludos!
+02:37:03	Pablo Marelli:	No hay problema
+02:40:30	Analía Belén Hereñú Baldo:	Esa pk viene a ser el id, no?
+02:44:39	[Tutor] Andres Nazzari:	no proble cris!
+02:44:40	Matias Saraullo:	no hay problema
+02:44:43	Eugenia Brizuela:	No hay problema!
+02:44:45	Pablo Figueroa:	No hay problema!!
+02:44:47	Analía Belén Hereñú Baldo:	No hay problema!
+02:45:01	[Tutor] Andres Nazzari:	nos vemos!!! buenaqs noches a todos!!
+02:45:02	Pablo Marelli:	No hay problema!
+02:45:03	Eugenia Brizuela:	Graciaas! Buenas noches!
+02:45:04	Analía Belén Hereñú Baldo:	Gracias! Nos vemos mañana!
+02:45:10	Matias Saraullo:	gracias
+02:45:15	Matias Saraullo:	después te moelsto por el presente
+02:45:21	Matias Saraullo:	todavía no me llego
+02:45:21	Mauricio Carabajal:	Barbaro, saludos. !
+02:45:28	Matias Saraullo:	el del lunes tampoco lo tengo
+02:45:37	Matias Saraullo:	dale gracias
+02:45:40	Matias Saraullo:	abrazoooo
+02:45:47	[Tutor] Andres Nazzari:	nos vemos!
+02:45:52	[Tutor] Gustavo Guzmán:	Buenas noches!
+02:45:53	Pablo Marelli:	Nos vemos!

@@ -10,14 +10,16 @@
 </head>
 <body>
     <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">Alumnos</a></li>
+        <li><a href={% url 'index' %}>Home</a></li>
+        <li><a href={% url 'alumnos' %}>Alumnos</a></li>
         <li><a href="contact.asp">Profesores</a></li>
         <li><a href="about.asp">Directivos</a></li>
     </ul>
-    <h1 id="prueba">Bienvenidos al sitio web de la escuela</h1>
-    <br>
-    <img src={% static 'assets/logo.jpg' %} alt="logo">
+    {% block 'body_block' %}
+        <h1 id="prueba">Bienvenidos al sitio web de la escuela</h1>
+        <br>
+        <img src={% static 'assets/logo.jpg' %} alt="logo">
+    {% endblock 'body_block' %}
     <footer id="pie">
         <h6 id="autor">Creada por Cristian Mondragon</h6>
     </footer>
