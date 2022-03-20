@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class alumnos(models.Model):
+class Alumnos(models.Model):
     nombre=models.CharField(max_length=20)
     apellido=models.CharField(max_length=40)
     dni=models.IntegerField()
@@ -13,4 +13,5 @@ class alumnos(models.Model):
     tutor_telefono=models.IntegerField()
     tutor_email=models.EmailField()
     
-    
+    def __str__(self):
+        return f'(self.nombre)'

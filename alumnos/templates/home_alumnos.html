@@ -1,15 +1,16 @@
 {% extends 'index/index.html' %}
 
 {% block 'body_block' %}
-
-hola
-<form action="" method="post">
+<h1 style="text-align: center";>login Alumnos</h1>
+<h4 style="text-align: center";>Ingrese los datos de registro</h4>
+<form action="" method="post" style="text-align: center";>
     {% csrf_token %}
-    <table>
+    <table style = "margin-left: auto; margin-right: auto;">
         {{form.as_table}}
     </table>
+    <br>
     <input type="submit"value="Ingresar">
+    <a href= {% url 'crearalumnos' %}>Registrarse</a>
     
 </form>
-<a href= {% url 'crearalumnos' %} >Registrarse</a>
 {% endblock 'body_block' %}
