@@ -14,3 +14,16 @@ class Profesores(models.Model):
 
     def __str__(self):
         return f'{self.nombre}'
+    
+
+
+class Cursos(models.Model):
+    materia=models.CharField(max_length=30)
+    turno_manana=models.BooleanField()
+    turno_tarde=models.BooleanField()
+    turno_noche=models.BooleanField()
+    cupos=models.IntegerField()
+
+    def __str__(self):
+        return f'{self.materia}'
+    

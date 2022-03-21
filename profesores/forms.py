@@ -12,3 +12,11 @@ class Profesoresalta(forms.Form):
 
 class Buscarprofesores(forms.Form):
     nombre=forms.CharField(max_length=20)
+
+
+class Cursos_f(forms.Form):
+    materia=forms.CharField(max_length=30)
+    turno_manana=forms.BooleanField(required=False, label='Turno Mañana')
+    turno_tarde=forms.BooleanField(required=False)
+    turno_noche=forms.BooleanField(required=False)
+    cupos=forms.IntegerField()

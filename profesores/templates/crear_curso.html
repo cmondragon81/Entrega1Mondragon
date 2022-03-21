@@ -1,12 +1,12 @@
 {% extends 'index/index.html' %}
 
 {% block 'block_name' %}
-<title>Profesores</title>
+<title>Cursos</title>
 {% endblock 'block_name' %}
 
 {% block 'body_block' %}
-<h1 style="text-align: center";>Formulario de Registro Profesores</h1>
-<h4 style="text-align: center";>Ingrese los datos a registrar</h4>
+<h1 style="text-align: center";>Formulario de creacion de cursos</h1>
+<h4 style="text-align: center";>Ingrese los datos del curso a crear</h4>
 <form action="" method="POST" style="text-align: center";>
     {% csrf_token %}
     <table style = "margin-left: auto; margin-right: auto;">
@@ -14,5 +14,4 @@
     </table>
     <input type="submit"value="Guardar">
 </form>
-<br>
 {% endblock 'body_block' %}

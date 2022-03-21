@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'index',
     'alumnos',
     'profesores',
-    'directivos'
 ]
 
 MIDDLEWARE = [

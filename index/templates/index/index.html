@@ -16,7 +16,7 @@
         <li><a href={% url 'alumnos' %}>Alumnos</a></li>
         <li><a href={% url 'profesores' %}>Profesores</a></li>
         <li><a href={% url 'listar' %}>Buscar Profesores</a></li>
-        <li><a href="#">Directivos</a></li>
+        <li><a href={% url 'crear' %}>Crear Cursos</a></li>
     </ul>
     {% block 'body_block' %}
         <h1 id="prueba">Bienvenidos al sitio web de la escuela</h1>
