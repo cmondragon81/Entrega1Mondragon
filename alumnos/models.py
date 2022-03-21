@@ -14,4 +14,4 @@ class Alumnos(models.Model):
     tutor_email=models.EmailField()
     
     def __str__(self):
-        return f'(self.nombre)'
+        return f'{self.nombre}'

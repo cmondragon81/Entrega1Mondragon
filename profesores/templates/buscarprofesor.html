@@ -1,0 +1,18 @@
+{% extends 'index/index.html' %}
+
+{% block 'body_block' %}
+<h1 style="text-align: center";>Busqueda de profesores</h1>
+<h4 style="text-align: center";>Ingrese el dato a buscar</h4>
+<form action="" method="get" style="text-align: center";>
+    {% csrf_token %}
+    <table style = "margin-left: auto; margin-right: auto;">
+        {{form.as_table}}
+    </table>
+    <input type="submit"value="Buscar">
+</form>
+
+{% for profesor in profesores %}
+<li>{{profesores}}</li>
+{% endfor %}
+
+{% endblock 'body_block' %}
