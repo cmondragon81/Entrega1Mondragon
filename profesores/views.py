@@ -15,6 +15,7 @@ def profesores(request):
                 apellido=datos['apellido'],
                 dni=datos['dni'],
                 clave=datos['clave'],
+                materia=datos['materia'],
                 turno_manana=datos['turno_manana'],
                 turno_tarde=datos['turno_tarde'],
                 turno_noche=datos['turno_noche']

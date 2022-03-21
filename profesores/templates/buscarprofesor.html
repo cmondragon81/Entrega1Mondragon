@@ -1,5 +1,9 @@
 {% extends 'index/index.html' %}
 
+{% block 'block_name' %}
+<title>Profesores</title>
+{% endblock 'block_name' %}
+
 {% block 'body_block' %}
 <h1 style="text-align: center";>Busqueda de profesores</h1>
 <h4 style="text-align: center";>Ingrese el dato a buscar</h4>
@@ -12,6 +16,7 @@
     <input type="submit"value="Buscar">
 </form>
 <br>
+
 <TABLE BORDER style = "margin-left: auto; margin-right: auto;">
 	<TR>
 		<TD>Nombre</TD>

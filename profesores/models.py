@@ -6,6 +6,7 @@ class Profesores(models.Model):
     apellido=models.CharField(max_length=30)
     dni=models.IntegerField()
     clave=models.CharField(max_length=12)
+    materia=models.CharField(max_length=30)
     turno_manana=models.BooleanField()
     turno_tarde=models.BooleanField()
     turno_noche=models.BooleanField()

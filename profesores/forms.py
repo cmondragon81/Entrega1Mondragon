@@ -5,6 +5,7 @@ class Profesoresalta(forms.Form):
     apellido=forms.CharField(max_length=30)
     dni=forms.IntegerField()
     clave=forms.CharField(max_length=12,widget=forms.PasswordInput)
+    materia=forms.CharField(max_length=30)
     turno_manana=forms.BooleanField(required=False, label='Turno Mañana')
     turno_tarde=forms.BooleanField(required=False)
     turno_noche=forms.BooleanField(required=False)
