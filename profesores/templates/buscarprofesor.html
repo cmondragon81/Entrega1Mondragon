@@ -8,11 +8,20 @@
     <table style = "margin-left: auto; margin-right: auto;">
         {{form.as_table}}
     </table>
+    <br>
     <input type="submit"value="Buscar">
 </form>
+<br>
+<TABLE BORDER style = "margin-left: auto; margin-right: auto;">
+	<TR>
+		<TD>Nombre</TD>
+	</TR>
 
-{% for profesor in profesores %}
-<li>{{profesores}}</li>
-{% endfor %}
+	<TR>
+        {% for profesor in profesores %}
+        <td>{{profesor}}</td>
+        {% endfor %}
+	</TR>
+</TABLE>
 
 {% endblock 'body_block' %}
